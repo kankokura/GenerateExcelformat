@@ -111,7 +111,7 @@ namespace GenerateDeployList
         {
             MyApp = new Excel.Application();
             MyApp.Visible = false;
-            string path = @"\\doc\is\Manual\SDLC\SDR\Template\SDRNO\07-Deploy\DEP_Deploy_GenO1.xls";
+            string path = @"\\doc\DEP_Deploy_GenO1.xls"; //Deploy format
             MyBook = MyApp.Workbooks.Open(path);
             MySheet = (Excel.Worksheet)MyBook.Sheets[1];
             // Project name
